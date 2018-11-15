@@ -2,32 +2,35 @@ $(document).ready(function(){
 
   // MODAL
   var modalText = {
-    roambi: {
-      title: 'Roambi.com',
-      tag: 'BUSINESS ANALYTICS.',
-      detail: 'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.roambi.com'
+    belugadb: {
+      title: 'BelugaDB.com',
+      tag: 'BUSINESS ANALYTICS TOOL.',
+      detail: 'Developed in 6 months with one more person large part of the Data Visualization tool. A drag and droppable dashboard for querying, filtering, and showing the data in different forms like graphs and tables. Stack: React/Redux/Node/Mongo.',
+      link: 'https://vimeo.com/216248196'
     },
-    walker: {
-      title: 'WalkerTracker',
-      tag: 'PERFORMANCE METRICS.',
-      detail: 'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.',
+    tekopora: {
+      title: 'Teko Porã',
+      tag: 'FULL RESPONSIBLE',
+      detail: 'Teko Porãs band website, full reponsive with many effect using html5, css3, and gulp for performance',
+      link: 'http://tekopora.com'
     },
-    powur: {
-      title: 'Powur.com',
-      tag: 'MULTI-LEVEL MARKETING.',
-      detail: 'Powur is a multi-level marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
-      link: 'http://www.powur.com/with/42'
+    coins: {
+      title: '314Coins',
+      tag: 'VUE.JS + web3.js',
+      detail: 'Connecting with bitcoin and ethereum blockchain to manage withdrawls and deposits from wallets',
+      link: 'http://314coins.com'
     },
-    mystand: {
-      title: 'MyStand',
-      tag: 'CROWD-FUNDED CHARITY.',
-      detail: 'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.',
+    coinmarketapp: {
+      title: 'Coin Market App',
+      tag: 'React Native App to check crypto prices',
+      detail: 'Reat Native handling crypto APIs',
+      link: 'https://play.google.com/store/apps/details?id=com.coinmarketcapunofficial'
     },
-    never: {
-      title: 'NeverSurrender',
-      tag: 'ALS AWARENESS.',
-      detail: 'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.',
+    cryptodoggies: {
+      title: 'Crypto Doggies',
+      tag: 'Truffle + Web3 + Solidity Project',
+      detail: 'My first Dapp, very similar to crypto kitties on ethereum blockchain.',
+      link: 'https://github.com/Robsonsjre/cryptodoggies'
     },
     themall: {
       title: 'The Mall',
@@ -52,7 +55,7 @@ $(document).ready(function(){
   var carousel = $('#carousel'),
       slideWidth = 700,
       threshold = slideWidth/3,
-      dragStart, 
+      dragStart,
       dragEnd;
 
   setDimensions();
@@ -93,7 +96,7 @@ $(document).ready(function(){
     $(document).off('mouseup')
     carousel.off('mousemove')
             .addClass('transition')
-            .css('transform','translateX(' + (direction * slideWidth) + 'px)'); 
+            .css('transform','translateX(' + (direction * slideWidth) + 'px)');
     setTimeout(function(){
       if (direction === 1) {
         $('.slide:first').before($('.slide:last'));
@@ -101,7 +104,7 @@ $(document).ready(function(){
         $('.slide:last').after($('.slide:first'));
       }
       carousel.removeClass('transition')
-      carousel.css('transform','translateX(0px)'); 
+      carousel.css('transform','translateX(0px)');
     },700)
   }
 
@@ -121,7 +124,7 @@ $(document).ready(function(){
         background: "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
         backgroundSize: 'cover'
       });
-              
+
     });
   }
 })
