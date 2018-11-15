@@ -435,7 +435,7 @@ section {
       margin: 20px 0 15px 0; }
   section:nth-of-type(2) .hexagon i {
     position: absolute;
-    top: 20px;
+    top: 35px;
     font-size: 34pt;
     color: #fff;
     left: 0;
@@ -854,7 +854,7 @@ footer {
     section:nth-of-type(1) .button {
       padding: 12px 50px 12px 20px; }
       section:nth-of-type(1) .button .mdi {
-        top: 16px; }
+        top: 13px; }
     section:nth-of-type(2) .label-wrap .label {
       margin: 15px 0 5px 0; }
     section:nth-of-type(2) .label-wrap > div {
