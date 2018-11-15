@@ -233,7 +233,7 @@ nav {
       nav .link-wrap div:first-child {
         padding: 25px 20px 12px 20px; }
       nav .link-wrap div:hover {
-        color: #E31B6D; }
+        color: #04C2C9; }
   nav .mdi-menu {
     position: absolute;
     right: 5vw;
@@ -242,7 +242,7 @@ nav {
     line-height: 36pt;
     top: 0; }
   nav .active {
-    color: #E31B6D; }
+    color: #04C2C9; }
 
 .carousel-wrap {
   position: relative;
@@ -496,7 +496,7 @@ section {
     section:nth-of-type(2) .bar.secondary {
       background-color: #C51675; }
       section:nth-of-type(2) .bar.secondary .tag {
-        background-color: #E31B6D; }
+        background-color: #04C2C9; }
     section:nth-of-type(2) .bar span {
       z-index: 1;
       padding: 0 15px 0 0; }
@@ -522,7 +522,7 @@ section {
       overflow: hidden;
       height: 25px;
       border-radius: 1px;
-      background: #E31B6D;
+      background: #04C2C9;
       transition: all .5s ease-in-out; }
       section:nth-of-type(3) .float-bar .row {
         top: 0;
@@ -730,7 +730,7 @@ footer {
   footer .mdi-chevron-double-up {
     position: absolute;
     top: -25px;
-    background: #E31B6D;
+    background: #04C2C9;
     font-size: 30pt;
     width: 47px;
     height: 50px;
@@ -775,7 +775,7 @@ footer {
     opacity: 0.6; }
     footer .footnote .highlight {
       font-family: 'Open Sans';
-      color: #E31B6D; }
+      color: #04C2C9; }
 
 @media screen and (max-width: 400px) {
   section:nth-of-type(3) #gallery .mix .card {
