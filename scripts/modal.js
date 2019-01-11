@@ -32,10 +32,10 @@ $(document).ready(function(){
       detail: 'My first Dapp, very similar to crypto kitties on ethereum blockchain.',
       link: 'https://github.com/Robsonsjre/cryptodoggies'
     },
-    themall: {
-      title: 'The Mall',
-      tag: 'PEER GUIDED SHOPPING.',
-      detail: 'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.',
+    atacadapp: {
+      title: 'Atacadapp',
+      tag: 'React + Node',
+      detail: 'Atacadapp is a whitelabel plataform for medium shop retailers based on subdomain.',
     }
   };
 
