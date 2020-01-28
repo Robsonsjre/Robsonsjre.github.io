@@ -16,7 +16,7 @@ $(document).ready(function(){
     },
     coins: {
       title: '314Coins',
-      tag: 'VUE.JS + web3.js',
+      tag: 'BRAZILIAN RING EXCHANGE',
       detail: 'Connecting with bitcoin and ethereum blockchain to manage withdrawls and deposits from wallets',
       link: 'http://314coins.com'
     },
@@ -26,11 +26,11 @@ $(document).ready(function(){
       detail: 'Reat Native handling crypto APIs',
       link: 'https://play.google.com/store/apps/details?id=com.coinmarketcapunofficial'
     },
-    cryptodoggies: {
-      title: 'Crypto Doggies',
-      tag: 'Truffle + Web3 + Solidity Project',
-      detail: 'My first Dapp, very similar to crypto kitties on ethereum blockchain.',
-      link: 'https://github.com/Robsonsjre/cryptodoggies'
+    ohmydai: {
+      title: 'Ohmhdai!',
+      tag: 'PUT OPTIONS ONCHAIN',
+      detail: 'The first Option Builder on Ethereum! Covered by Messari and Defiant. Built in one week.',
+      link: 'https://ohmydai.io'
     },
     atacadapp: {
       title: 'Atacadapp',
